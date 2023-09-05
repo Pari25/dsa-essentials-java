@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class binarySearch {
 
+    //loop
     static int binary_search(int arr[],int n,int key){
         //Implement binary search
         int s = 0;
@@ -26,6 +27,25 @@ public class binarySearch {
 
         return -1;
     }
+
+
+//    recursion
+//    private static int binary_search(int[] arr, int n, int key) {
+//
+//        return binary_helper(arr, 0, n - 1, key);
+//    }
+//    private static int binary_helper(int[] arr, int start, int end, int key) {
+//        int mid = (end + start) / 2;
+//        if(mid < start || mid > end) return -1;
+//        if(arr[mid] == key) {
+//            return mid;
+//        }
+//        if(key < arr[mid]) {
+//            return binary_helper(arr, start, mid - 1, key);
+//        }
+//
+//        return binary_helper(arr, mid + 1, end, key);
+//    }
 
 
     public static void main(String[] args){

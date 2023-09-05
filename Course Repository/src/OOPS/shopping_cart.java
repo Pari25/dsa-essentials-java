@@ -1,6 +1,4 @@
 package OOPS;
-
-import java.awt.desktop.ScreenSleepEvent;
 import java.util.Scanner;
 
 public class shopping_cart {
