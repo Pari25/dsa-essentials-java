@@ -27,7 +27,7 @@ public class selectionSort {
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int arr[] = {-2,3,4,-1,5,-12,6,1,3};
         int n = arr.length;
 

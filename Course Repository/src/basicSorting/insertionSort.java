@@ -4,23 +4,36 @@ import java.util.Arrays;
 
 public class insertionSort {
 
-    static void insertion_sort(int a[],int n){
+//    static void insertion_sort(int a[],int n){
+//
+//        for(int i=1; i<=n-1; i++){
+//
+//            int current = a[i];
+//
+//            int prev = i - 1;
+//            //loop to find the right index where the element current should be inserted
+//            while(prev>=0 && a[prev] > current){
+//                a[prev + 1] = a[prev];
+//                prev = prev - 1;
+//            }
+//
+//            a[prev+1] = current;
+//        }
+//
+//
+//    }
 
-        for(int i=1; i<=n-1; i++){
-
-            int current = a[i];
-
+    private static void insertion_sort(int[] arr, int n) {
+        for(int i = 1; i < n - 1; i++) {
+            int cur = arr[i];
             int prev = i - 1;
-            //loop to find the right index where the element current should be inserted
-            while(prev>=0 && a[prev] > current){
-                a[prev + 1] = a[prev];
-                prev = prev - 1;
+            while(prev >= 0 && arr[prev] > cur) {
+                arr[prev + 1] = arr[prev];
+                prev--;
             }
 
-            a[prev+1] = current;
+            arr[prev + 1] = cur;
         }
-
-
     }
 
 

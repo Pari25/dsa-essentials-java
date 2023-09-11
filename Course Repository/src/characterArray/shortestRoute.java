@@ -9,8 +9,6 @@ public class shortestRoute {
         Scanner scn = new Scanner(System.in);
         String route = scn.nextLine();
 
-
-
         int x = 0;
         int y = 0;
 
@@ -36,15 +34,35 @@ public class shortestRoute {
         System.out.println("Final x and y is: " + x + ", " + y + ".");
 
         //Other cases
-        if(x>=0 && y>=0){
+        if(x >= 0 && y >= 0) {
 
-            while(y-- > 0){
+            while(y-- > 0) {
                 System.out.print("N");
             }
-            while(x-- > 0){
+            while(x-- > 0) {
                 System.out.print("E");
             }
-
+        } else if(x < 0 && y > 0) {
+            while(y-- > 0) {
+                System.out.print("N");
+            }
+            while(x++ > 0) {
+                System.out.print("W");
+            }
+        } else if(x > 0 && y < 0) {
+            while(y++ < 0){
+                System.out.print("S");
+            }
+            while(x-- > 0) {
+                System.out.print("E");
+            }
+        } else if(x < 0 && y < 0) {
+            while(y-- > 0) {
+                System.out.print("S");
+            }
+            while(x++ < 0) {
+                System.out.print("W");
+            }
         }
     }
 }
