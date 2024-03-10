@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Course Repository/Course Repository.iml" filepath="$PROJECT_DIR$/Course Repository/Course Repository.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Exercise Solutions/Exercise Solutions.iml" filepath="$PROJECT_DIR$/Exercise Solutions/Exercise Solutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CourseRepository/Course Repository.iml" filepath="$PROJECT_DIR$/CourseRepository/Course Repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExerciseSolutions/Exercise Solutions.iml" filepath="$PROJECT_DIR$/ExerciseSolutions/Exercise Solutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dsa-essentials-java.iml" filepath="$PROJECT_DIR$/.idea/dsa-essentials-java.iml" />
     </modules>
   </component>
